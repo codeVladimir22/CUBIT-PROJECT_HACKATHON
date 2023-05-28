@@ -2,39 +2,32 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>DEMO</title>
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css?2">
+
+    <title>DEMO</title>
   </head>
-  <body class="mainPage">
+
+  <body>
     <div class="container-date" id="date"></div>
     <span id="clock"></span>
-    
-    <section>
-        <div class="container_address">
-            <h1>Mi Sitio Web</h1>
-
-        </div>
-        <div class="container_address">
-            <h1>Mi Sitio Web</h1>
-        </div>
-        <div class="container_address">
-            <h1>Mi Sitio Web</h1>
-        </div>
-        <div class="container_address">
-            <h1>Mi Sitio Web</h1>
-        </div>
-        <div class="container_address">
-            <h1>Mi Sitio Web</h1>
-        </div>
-        <hr>
-        <h1 class="h1-btn">PRONOSTICO DE CHOQUES DEL DIA</h1>
-        <div class="container-btn">
-        <a href="days.html"><button class="btn"></button></a>
-          </div>
+    <section class="content">
+      <tableau-viz id='tableau-viz' class="desktop" src='https://10az.online.tableau.com/t/solariooperaciones/views/Accidents/DashboardHomeDesktop' width='1000' height='840' hide-tabs toolbar='hidden' ></tableau-viz>
+      <tableau-viz id='tableau-viz' class="phone" src='https://10az.online.tableau.com/t/solariooperaciones/views/Accidents/DashboardHomePhone' width='359' height='684' hide-tabs toolbar='bottom' ></tableau-viz>
+      <div class="line"></div>
+      <div class="footer-content">
+        <h3>Pronostico de choques del dia</h3>
+        <a href="days.html" class="btn">Siguiente</a>
+      </div>       
     </section>
 
-   
+    <script type='module' src='https://10az.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script>
     <script src="index.js"></script>
   </body>
 </html>
