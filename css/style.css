@@ -1,0 +1,102 @@
+body{
+    background-color: rgba(34, 61, 78, 1);;
+    background-image: url('img/nightVibe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    padding: 30px;
+    
+}
+.page2{
+    background-image: url('img/streests.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clock {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    color: #fff;
+  }
+  #date {
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+  }
+  .day-section:hover{
+    color: transparent;
+    color: transparent;
+  }
+  .container_address{
+    /*estilos de los div de las avenidas*/
+    padding: 20px;
+    margin: 20px;
+    background: rgba(34, 61, 78, 0.81);
+    border-radius: 8px;
+  }
+  .container-btn{
+    text-align: center;
+  }
+  .container_days{
+    padding: 30px;
+    background: rgba(34, 61, 78, 0.81);
+    border-radius: 8px;
+    text-align: center;
+  }
+  .content{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+  }
+  .content,
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+
+  }
+  .btn{
+    margin: 10px;
+    padding: 30px 50px;
+    border: 1px solid #000;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 80%;
+  }
+  .btn:hover{
+    background-color: rgba(34, 61, 78, 1);
+    color: #fff;
+    border-color: #fff;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  .line{
+    width: 80%;
+    height: 2px;
+    background-color: rgba(34, 61, 78, 0.81);;
+    margin: 20px 0;
+  }
+
+  .phone{
+    display: none !important;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .phone{
+      display: block !important;
+    }
+    
+    .desktop{
+      display: none !important;
+    }
+  
+  }
