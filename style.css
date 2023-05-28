@@ -1,0 +1,105 @@
+body{
+    background-image: url(images/nightVibe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inter Tight', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+}
+.page2{
+    background-image: url(images/streests.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inter Tight', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+#clock {
+    font-size: 40px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    color: #fff;
+  }
+  #date {
+    font-size: 45px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+  }
+
+  section{
+    /*seccion de primer slide para las avenidas*/
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 40px;
+    margin: 40vh;
+    margin-top: 10vh;
+    padding: 10vh;
+  }  
+  .day-section:hover{
+    color: transparent;
+    color: transparent;
+  }
+  .container_address{
+    /*estilos de los div de las avenidas*/
+    padding: 20px;
+    margin: 20px;
+    background: rgba(34, 61, 78, 0.81);
+    border-radius: 8px;
+    width: 90vh;
+  }
+  .container-btn{
+    text-align: center;
+  }
+  .btn{
+    /* Estilos del botón */
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    width: 20vh; /* Asegura que el botón no ocupe todo el ancho disponible */
+  }
+  .h1-btn{
+    font-size: 40px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  hr{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #fff;
+    color: #fff;
+    width: 90vh;
+  }
+  h1 {
+    font-size: 24px;
+    margin: 0;
+    color:#fff;
+  }
+  .container_days{
+    /*estilos de los div de las avenidas*/
+    padding: 20px;
+    margin: 20px;
+    background: rgba(34, 61, 78, 0.81);
+    border-radius: 8px;
+    justify-content: center ;
+    text-align: center;
+    width: 40vh;
+  }
+  .day-btn{
+    background: none;
+    border: none;
+  }
+  
+  
